@@ -16,6 +16,24 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.19.0-GA</version>
+		</dependency>
+		<dependency>
+			<groupId>com.nqzero</groupId>
+			<artifactId>permit-reflect</artifactId>
+			<version>0.3</version>
+		</dependency>
+
 		<dependency>
 			<groupId>net.sourceforge.serp</groupId>
 			<artifactId>serp</artifactId>
